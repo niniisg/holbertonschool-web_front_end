@@ -144,6 +144,9 @@
         padding-right:1rem;
         color:var(nav-item-link-hover);
     }
+    .nav-link:hover{
+        color:var(--nav-item-link-hover);
+    }
 
     .footer{
         padding:var(--footer-padding);
