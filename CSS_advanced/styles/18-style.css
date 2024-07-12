@@ -136,7 +136,7 @@
         display: var(--nav-item-display);
         margin:var(--nav-item-margin);
     }
-   .nav .nav.link{
+   .nav .nav-link{
         display: block;
         padding-top: 0.5rem;
         padding-bottom: 0.5rem;
