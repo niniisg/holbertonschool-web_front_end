@@ -166,6 +166,9 @@
     .footer{
         padding:var(--footer-padding);
     }
+    .footer ul{
+        text-align: right;
+    }
 
     .footer-copyright{
         margin:0;
