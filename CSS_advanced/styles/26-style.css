@@ -232,9 +232,8 @@
     }
     .card-testimonials .card-quote cite{
         display: block;
-        width: 10rem;
-        height: 10rem;
-        color:var(--color-primary);
+        padding-top: 1rem;
+        color: var(--color-primary);
     }
 
     .footer{
