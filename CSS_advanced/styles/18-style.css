@@ -129,11 +129,11 @@
         text-align: center;    
     }
    .nav .nav-item{
-        font-family:var(nav-item-font-family);
-        font-weight: var(nav-item-font-weight);
-        font-size: var(nav-item-font-size);
-        letter-spacing: var(nav-item-letter-spacing);
-        display: var(nav-item-display);
+        font-family:var(--nav-item-font-family);
+        font-weight: var(--nav-item-font-weight);
+        font-size: var(--nav-item-font-size);
+        letter-spacing: var(--nav-item-letter-spacing);
+        display: var(--nav-item-display);
         margin:(nav-item-margin);
     }
    .nav .nav.link{
@@ -142,7 +142,7 @@
         padding-bottom: 0.5rem;
         padding-left:1rem;
         padding-right:1rem;
-        color:var(nav-item-link-hover);
+        color:var(--nav-item-link-hover);
     }
     .nav-link:hover{
         color:var(--nav-item-link-hover);
