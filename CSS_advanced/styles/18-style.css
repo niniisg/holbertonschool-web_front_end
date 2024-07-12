@@ -128,7 +128,7 @@
         list-style: none;
         text-align: center;    
     }
-    .nav-item{
+   .nav .nav-item{
         font-family:var(nav-item-font-family);
         font-weight: var(nav-item-font-weight);
         font-size: var(nav-item-font-size);
@@ -136,7 +136,7 @@
         display: var(nav-item-display);
         margin:(nav-item-margin);
     }
-    .nav.link{
+   .nav .nav.link{
         display: block;
         padding-top: 0.5rem;
         padding-bottom: 0.5rem;
