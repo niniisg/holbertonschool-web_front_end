@@ -30,7 +30,7 @@
     --section-body-padding:0 0 3rem;
     --section-footer-padding:3rem 0 0;
     --section-footer-align:center;
-    --section-tagline-margin:0 0 3rem;
+    --section-tagline-margin:0;
     --footer-padding:5rem 0 1rem;
 
     --nav-item-font-family:var(--font-family-title);
@@ -166,7 +166,7 @@
     .footer{
         padding:var(--footer-padding);
     }
-    
+
     .footer-copyright{
         margin:0;
         font-size: var(--font-size-small);
