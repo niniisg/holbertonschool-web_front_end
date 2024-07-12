@@ -72,7 +72,7 @@
         color:var(--color-primary);
     }
     .section{
-        padding:var(section-padding);
+        padding:var(--section-padding);
 
     }
     .section-header{
