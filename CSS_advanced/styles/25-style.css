@@ -103,7 +103,7 @@
     .button:hover{
         color: var(--button-hover-color);
         text-decoration: var(--button-hover-text-decoration);
-        background-color: var(--color-white);
+        background: var(--button-hover-background);
         --button-color: var(--color-white);
     }
     .visually-hidden {
