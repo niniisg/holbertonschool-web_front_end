@@ -101,6 +101,7 @@
 
     .header{
         padding: var(--header-padding);
+        position: var(--header-logo-link-position);
     }
     .header-logo{
         position: var(--header-logo-link-position);
