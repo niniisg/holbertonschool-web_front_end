@@ -110,7 +110,7 @@
         display: var(--header-logo-link-display);
         position:var(--header-logo-link-position);
         top: var(--header-logo-link-top);
-        left: var(header-logo-link-left);
+        left: var(--header-logo-link-left);
     }
 
     .button{
@@ -185,16 +185,19 @@
         font-weight: var(--font-weight-bold);
         margin: var(--section-tagline-margin);
     }
+
     ul.row{
         margin:0;
         padding:0;
         list-style: none;
     }
+
     .row::after{
         content:"";
         display: table;
         clear:both;
     }
+
     .col-1-3{
         width:33.33%;
     }
