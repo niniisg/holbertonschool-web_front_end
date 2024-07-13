@@ -104,7 +104,7 @@
         position: var(--header-logo-link-position);
     }
     .header-logo{
-        position: var(--header-logo-link-position);
+        position: var(--header-logo-position);
     }
     .header-logo a{
         display: var(--header-logo-link-display);
