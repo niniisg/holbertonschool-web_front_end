@@ -1,0 +1,15 @@
+/*mixing left to right margins*/
+
+@mixin margin-lr($margin) {
+    margin-left: $margin;
+    margin-right: $margin;
+}
+
+body {
+    @include margin-lr(10px);
+
+}
+
+div {
+    @include margin-lr(15px);
+}
