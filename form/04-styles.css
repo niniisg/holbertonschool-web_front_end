@@ -684,6 +684,8 @@ label {
   font-size: 1.4rem;
   padding: 0 0 .5rem;
 }
+
+
 input[type=text], input[type=email], textarea {
   position: relative;
   width: 100%;
@@ -701,9 +703,11 @@ input[type=text], input[type=email] {
 
 input[type=text]:focus, input[type=email]:focus, textarea:focus {
   border: .1rem solid var(--color-grey);
-  background-color: var(--color-light-grey);
+  background-color: var(--color-light-grey)
 }
 
 ::placeholder {
-  font-style: var(--font-size-small);
+  font-style: italic;
+  font-size: var(--font-size-small);
+}
 }
