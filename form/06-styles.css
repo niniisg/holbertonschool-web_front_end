@@ -153,6 +153,10 @@
     transition-duration: var(--transition-duration);
     transition-property: color, background-color;
   }
+  .button-prinary {
+    color: var(--color-white);
+    background: var(--color-primary);
+  }
   .button-primary:hover {
     color: var(--color-white);
     background: var(--color-primary);
