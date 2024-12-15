@@ -655,6 +655,9 @@
         margin: 0;
 
     }
+    .post-comments .section-title {
+        font-variant: small-caps;
+    }
     /* Basic form
     ============================= */
     form {
