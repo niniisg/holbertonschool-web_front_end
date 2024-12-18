@@ -297,7 +297,7 @@
   position: relative;
   user-select: none;
 }
-.header .menu-icon .vavicon {
+.header .menu-icon .navicon {
   background: var(--color-white);
   display: block;
   width: 2rem;
@@ -307,7 +307,7 @@
 }
 
 .header .menu-icon .navicon::before, .header .menu-icon .navicon::after {
-  content: ", ";
+  content: ""; 
   display: block;
   width: 100%;
   height: 100%;
