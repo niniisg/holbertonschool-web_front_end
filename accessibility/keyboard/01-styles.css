@@ -660,7 +660,6 @@ ul.row {
 .card-work .card-title {
   text-align: center;
   margin: 0;
-  opacity: 0;
   height: 100%;
   position: relative;
 }
@@ -677,12 +676,13 @@ ul.row {
   left: 0;
   right: 0;
   bottom: 0;
-  content: '';
+  content: "";
 }
 
 .card-work .card-title a {
   opacity: 0;
 }
+
 .card-work .card-title a:focus, .card-work:hover .card-title a {
   opacity: 1;
   height: 100%;
