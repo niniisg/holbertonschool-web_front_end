@@ -4,6 +4,6 @@ function welcomeMessage(fullName){
 
 }
 
-const guillame = welcomeMessage("Guillame");
+const guillame = welcomeMessage("Guillaume");
 const alex = welcomeMessage("Alex");
 const fred = welcomeMessage("Fred");
