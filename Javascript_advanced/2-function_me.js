@@ -1,7 +1,6 @@
 function welcomeMessage(fullName){
-    return function() {
-        alert(`Welcome ${fullName}`);
-    };
+
+    alert(`Welcome ${fullName}`);
 
 }
 
