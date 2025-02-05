@@ -32,6 +32,17 @@
         p.innerHTML = `Cookies: ${document.cookie}`;
         document.body.appendchild(p)
     }
+    function getCookie(name) {
+            let decodeCookie = decodeURIComponent(document.cookie);
+            let na = decodeCookie.split(';');
+            for (let i of na){
+                let cookie = i.split("=");
+                if (cookie[0].trim() == name) {
+                    return cookie[1];
+
+                }
+            }
+        }
 
     function showForm(){
         const welcomeMessage = document.getElementById("welcomeMessage");
